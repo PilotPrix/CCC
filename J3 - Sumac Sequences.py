@@ -9,7 +9,7 @@ while True:
     sequence.append(sequence[i - 2] - sequence[i - 1])
     if sequence[i - 1] < sequence[i]:
         break
-    i += 1
+    i += 1	
 
 
 print(len(sequence))
