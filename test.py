@@ -1,1 +1,1 @@
-what is the meaning of life
+print("Hello world")
