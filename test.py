@@ -1,0 +1,1 @@
+print("ok then"[0:2])
