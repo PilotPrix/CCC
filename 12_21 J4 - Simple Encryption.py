@@ -9,9 +9,9 @@ def letterIndex(x) -> int:
     return "abcdefghijklmnopqrstuvwxyz".find(x)
 
 
-
 # seperate into columns of length of key variable
 
 rows_num = math.ceil(len(msg) / len(key))
 for i in range(rows_num):
-    grid[i] = msg[i * rows_num, (i + 1) * rows_num]
+    grid.append(msg[i * len(key):(i + 1) * len(key)])
+print(grid)
