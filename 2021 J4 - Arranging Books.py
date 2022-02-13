@@ -1,5 +1,12 @@
 #  https://dmoj.ca/problem/ccc21j4
 
+# Map values to numbers
+# Check if it's already sorted
+# 
+
+
+
+'''
 order = []
 count = 0
 userInput = input()
@@ -29,4 +36,4 @@ for i in range(numOfS):
             j -= 1
 
 print(order, count)
-
+'''

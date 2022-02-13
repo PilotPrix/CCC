@@ -1,1 +1,3 @@
-print("ok then"[0:2])
+x = 1
+x += 1
+print(x)
