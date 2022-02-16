@@ -1,8 +1,8 @@
 #  https://dmoj.ca/problem/ccc21j4
 
 # Map values to numbers
-# Check if it's already sorted
-# 
+# Check if it's already sorted, if not, continue
+# Find a number that preceds a bigger number
 
 
 
